@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ticketsystem</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../css/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home Sprecher/Z&auml;hner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./news.html">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FCZ</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./spiele_resultate.html">Spiele und Resultate</a></li>
+                <li><a class="dropdown-item" href="./tippspiel.html">Tippspiel</a></li>         
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ferien.html">Ferien</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">IT-Support</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./ticketsystem.html">Ticketsystem
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="./updateportal.html">Updateportal</a></li>      
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Title Site -->
+    <div class="container mt-2">
+      <h1>Ticketsystem</h1>
+      <hr>
+      <form action="mailto:l.sprecher@bluewin.ch" method="post" class="was-validated">
+        <div class="mb-3 mt-3">
+          <label for="name">1. Name:</label>
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="name" name="name" value="susanne" required>
+                <label for="form-check-lable" for="name">Susanne</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="name" name="name" value="bettina">
+                <label for="form-check-lable" for="name">Bettina</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="name" name="name" value="harry">
+                <label for="form-check-lable" for="name">Harry</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="name" name="name" value="loris">
+                <label for="form-check-lable" for="name">Loris</label>
+              </div>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+        <hr>
+        <div class="mb-3 mt-3">
+          <label for="geraet">2a. Ger&auml;t:</label>
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="iphone" required>
+                <label for="form-check-lable" for="geraet">iPhone</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="ipad">
+                <label for="form-check-lable" for="geraet">iPad</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="applewatch">
+                <label for="form-check-lable" for="geraet">Apple Watch</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="macbook">
+                <label for="form-check-lable" for="geraet">MacBook</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="imac">
+                <label for="form-check-lable" for="geraet">iMac</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="laptop">
+                <label for="form-check-lable" for="geraet">Laptop</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="internetbox">
+                <label for="form-check-lable" for="geraet">Internet Box</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="tv">
+                <label for="form-check-lable" for="geraet">TV</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="tvbox">
+                <label for="form-check-lable" for="geraet">TV Box</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="geraet" name="geraet" value="sonstiges">
+                <label for="form-check-lable" for="geraet">Sonstiges</label>
+              </div>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="comment">2b. Sonstiges Ger&auml;t:</label>
+          <div>
+            <input type="text" class="form-control" id="sonstigesgeraet" name="sonstigesgeraet" placeholder="Bitte Angaben, wenn Punkt Sonstiges angekreuzt ist"></input>
+          </div>
+        </div>
+        <hr>
+        <div class="mb-3 mt-3">
+          <label for="comment">3. Titel:</label>
+          <div>
+            <input type="text" class="form-control" id="titel" name="titel" required></input>
+          </div>
+        </div>
+        <hr>
+        <div class="mb-3 mt-3">
+          <label for="bereich">4a. Problembereich:</label>
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="bereich" name="bereich" value="e-mail" required>
+                <label for="form-check-lable" for="bereich">E-Mail</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="bereich" name="bereich" value="ms-office">
+                <label for="form-check-lable" for="bereich">MS-Office</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="bereich" name="bereich" value="wlan">
+                <label for="form-check-lable" for="bereich">WLAN</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="bereich" name="bereich" value="login">
+                <label for="form-check-lable" for="bereich">Login</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="bereich" name="bereich" value="hardware">
+                <label for="form-check-lable" for="bereich">Hardware</label>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" id="bereich" name="bereich" value="sonstiges">
+                <label for="form-check-lable" for="bereich">Sonstiges</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="comment">4b. Sonstiges Problembereich:</label>
+          <div>
+            <input type="text" class="form-control" id="sonstigesbereich" name="sonstigesbereich" placeholder="Bitte Angaben, wenn Punkt Sonstiges angekreuzt ist"></input>
+          </div>
+        </div>
+        <hr>
+        <div class="mb-3 mt-3">
+          <label for="comment">5. Beschreibung des Problems:</label>
+          <div>
+            <textarea class="form-control" rows="5" id="beschreibung" name="beschreibung" required></textarea>
+          </div>
+        </div>
+        <hr>
+        <div class="mb-3 mt-3">
+          <label for="comment">6. Datum bis wann erledigt:</label>
+          <div>
+            <input type="date" class="form-control" id="datum" name="datum" required></input>
+          </div>
+        </div>
+        <div class="mb-3 mt-3">
+            <button type="submit" class="btn btn-success">Senden</button>
+            <button type="reset" class="btn btn-danger">Abbrechen</button>
+        </div>
+      </form>
+    </div>
+      <!-- Footer -->
+      <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>© 2022 Loris Sprecher</p>
+      </div>      
+  </body>
+</html>
